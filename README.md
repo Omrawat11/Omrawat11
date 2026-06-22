@@ -1,312 +1,169 @@
- <!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="UTF-8"/>
-<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-<title>Om Rawat – Animated Profile</title>
-<link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;600&display=swap" rel="stylesheet"/>
-<style>
-  * { box-sizing: border-box; margin: 0; padding: 0; }
-  body {
-    background: #090e17;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    min-height: 100vh;
-    padding: 32px 16px;
-  }
+ <div align="center">
 
-  .terminal {
-    background: #0d1117;
-    border-radius: 12px;
-    border: 1px solid #30363d;
-    overflow: hidden;
-    font-family: 'Fira Code', monospace;
-    width: 100%;
-    max-width: 680px;
-    box-shadow: 0 0 40px rgba(0, 180, 216, 0.08);
-  }
+<!-- ANIMATED BANNER -->
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:00b4d8,100:0d1117&height=200&section=header&text=Om%20Rawat&fontSize=60&fontColor=00b4d8&animation=fadeIn&fontAlignY=38&desc=ML%20Engineer%20%7C%20Deep%20Learning%20%7C%20MLOps&descAlignY=58&descSize=18&descColor=ffffff" />
 
-  /* ── title bar ── */
-  .titlebar {
-    background: #161b22;
-    border-bottom: 1px solid #30363d;
-    padding: 10px 16px;
-    display: flex;
-    align-items: center;
-    gap: 8px;
-  }
-  .dot { width: 12px; height: 12px; border-radius: 50%; }
-  .dot.r { background: #ff5f56; }
-  .dot.y { background: #ffbd2e; }
-  .dot.g { background: #27c93f; }
-  .tab-label { color: #8b949e; font-size: 13px; margin-left: 8px; }
+<!-- TYPING ANIMATION -->
+<a href="https://git.io/typing-svg">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=800&color=00B4D8&center=true&vCenter=true&multiline=true&repeat=true&width=700&height=100&lines=Full+ML+Lifecycle+Engineer+%F0%9F%A4%96;TensorFlow+%7C+PyTorch+%7C+FastAPI+%F0%9F%94%A5;Bridging+Research+%26+Real-World+AI+%F0%9F%9A%80" alt="Typing SVG" />
+</a>
 
-  /* ── body ── */
-  .body {
-    padding: 24px 28px 32px;
-    min-height: 460px;
-    position: relative;
-    overflow: hidden;
-  }
+<br/>
 
-  /* subtle grid bg */
-  .grid-bg {
-    position: absolute;
-    inset: 0;
-    background-image:
-      linear-gradient(rgba(0,180,216,0.04) 1px, transparent 1px),
-      linear-gradient(90deg, rgba(0,180,216,0.04) 1px, transparent 1px);
-    background-size: 32px 32px;
-    pointer-events: none;
-  }
+<!-- PROFILE VIEWS -->
+[![](https://komarev.com/ghpvc/?username=Omrawat11&color=00b4d8&style=for-the-badge&label=PROFILE+VIEWS)](https://github.com/Omrawat11)
 
-  /* ── code lines ── */
-  .code-line {
-    font-size: 14px;
-    line-height: 1.8;
-    white-space: pre;
-    position: relative;
-    z-index: 2;
-    opacity: 0;
-    transform: translateX(-8px);
-    transition: opacity 0.32s ease, transform 0.32s ease;
-    min-height: 25px;
-  }
-  .code-line.visible { opacity: 1; transform: translateX(0); }
-
-  /* syntax colours */
-  .kw   { color: #ff7b72; }
-  .fn   { color: #d2a8ff; }
-  .str  { color: #a5d6ff; }
-  .self { color: #ffa657; }
-  .punc { color: #c9d1d9; }
-  .var  { color: #e3b341; }
-  .cmt  { color: #8b949e; font-style: italic; }
-
-  /* blinking cursor */
-  .cursor {
-    display: inline-block;
-    width: 9px; height: 15px;
-    background: #00b4d8;
-    vertical-align: middle;
-    margin-left: 2px;
-    border-radius: 1px;
-    animation: blink 1s step-end infinite;
-  }
-  @keyframes blink { 50% { opacity: 0; } }
-
-  /* ── output box ── */
-  .output-box {
-    margin-top: 20px;
-    padding: 14px 18px;
-    border-radius: 8px;
-    border: 1px solid rgba(0,180,216,0.35);
-    background: rgba(0,180,216,0.06);
-    display: none;
-    position: relative;
-    z-index: 2;
-    animation: fadeSlide 0.45s ease forwards;
-  }
-  .output-box.show { display: block; }
-  @keyframes fadeSlide {
-    from { opacity: 0; transform: translateY(8px); }
-    to   { opacity: 1; transform: translateY(0); }
-  }
-  .output-line {
-    font-size: 14px;
-    line-height: 1.7;
-    color: #7ee787;
-    min-height: 25px;
-  }
-
-  /* ── badges ── */
-  .badge-row { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 12px; }
-  .badge {
-    font-size: 11px;
-    padding: 3px 10px;
-    border-radius: 20px;
-    font-family: 'Fira Code', monospace;
-    font-weight: 500;
-    border: 1px solid;
-    opacity: 0;
-    transform: scale(0.75);
-    transition: opacity 0.25s ease, transform 0.25s ease;
-  }
-  .badge.pop { opacity: 1; transform: scale(1); }
-  .b-orange { color: #ffa657; border-color: rgba(255,166,87,.4);  background: rgba(255,166,87,.08); }
-  .b-blue   { color: #79c0ff; border-color: rgba(121,192,255,.4); background: rgba(121,192,255,.08); }
-  .b-green  { color: #7ee787; border-color: rgba(126,231,135,.4); background: rgba(126,231,135,.08); }
-  .b-cyan   { color: #00b4d8; border-color: rgba(0,180,216,.4);   background: rgba(0,180,216,.08); }
-  .b-pink   { color: #f778ba; border-color: rgba(247,120,186,.4); background: rgba(247,120,186,.08); }
-
-  /* ── restart button ── */
-  .restart-btn {
-    position: absolute;
-    top: 12px; right: 16px;
-    background: transparent;
-    border: 1px solid #30363d;
-    color: #8b949e;
-    font-size: 11px;
-    font-family: 'Fira Code', monospace;
-    padding: 4px 10px;
-    border-radius: 6px;
-    cursor: pointer;
-    z-index: 10;
-    transition: border-color .2s, color .2s;
-  }
-  .restart-btn:hover { border-color: #00b4d8; color: #00b4d8; }
-
-  /* corner glow accents */
-  .glow-tl, .glow-br {
-    position: absolute;
-    width: 160px; height: 160px;
-    border-radius: 50%;
-    pointer-events: none;
-    z-index: 1;
-    opacity: 0.07;
-  }
-  .glow-tl { top: -60px; left: -60px; background: #00b4d8; }
-  .glow-br { bottom: -60px; right: -60px; background: #d2a8ff; }
-</style>
-</head>
-<body>
-
-<div class="terminal">
-  <div class="titlebar">
-    <span class="dot r"></span>
-    <span class="dot y"></span>
-    <span class="dot g"></span>
-    <span class="tab-label">om_rawat.py — Python 3.11</span>
-  </div>
-
-  <div class="body" id="body">
-    <div class="glow-tl"></div>
-    <div class="glow-br"></div>
-    <div class="grid-bg"></div>
-    <button class="restart-btn" onclick="restart()">↺ restart</button>
-
-    <div id="code-container"></div>
-
-    <div class="output-box" id="output">
-      <div class="output-line" id="out-line"></div>
-      <div class="badge-row" id="badge-row"></div>
-    </div>
-  </div>
 </div>
 
-<script>
-const lines = [
-  { html: '<span class="kw">class</span> <span class="fn">OmRawat</span><span class="punc">:</span>',                                           delay: 0 },
-  { html: '    <span class="kw">def</span> <span class="fn">__init__</span><span class="punc">(</span><span class="self">self</span><span class="punc">):</span>', delay: 320 },
-  { html: '        <span class="self">self</span><span class="punc">.</span><span class="var">name</span>       <span class="punc">=</span> <span class="str">"Om Rawat"</span>',                    delay: 640 },
-  { html: '        <span class="self">self</span><span class="punc">.</span><span class="var">role</span>       <span class="punc">=</span> <span class="str">"ML Engineer &amp; AI Developer"</span>',    delay: 960 },
-  { html: '        <span class="self">self</span><span class="punc">.</span><span class="var">location</span>   <span class="punc">=</span> <span class="str">"India 🇮🇳"</span>',                    delay: 1240 },
-  { html: '        <span class="self">self</span><span class="punc">.</span><span class="var">languages</span>  <span class="punc">=</span> <span class="punc">[</span><span class="str">"Python"</span><span class="punc">,</span> <span class="str">"C"</span><span class="punc">,</span> <span class="str">"SQL"</span><span class="punc">]</span>',    delay: 1540 },
-  { html: '        <span class="self">self</span><span class="punc">.</span><span class="var">frameworks</span> <span class="punc">=</span> <span class="punc">[</span><span class="str">"TensorFlow"</span><span class="punc">,</span> <span class="str">"PyTorch"</span><span class="punc">,</span> <span class="str">"FastAPI"</span><span class="punc">]</span>', delay: 1840 },
-  { html: '        <span class="self">self</span><span class="punc">.</span><span class="var">databases</span>  <span class="punc">=</span> <span class="punc">[</span><span class="str">"MySQL"</span><span class="punc">]</span>',                         delay: 2140 },
-  { html: '        <span class="self">self</span><span class="punc">.</span><span class="var">interests</span>  <span class="punc">=</span> <span class="punc">[</span>',                                   delay: 2420 },
-  { html: '            <span class="str">"Deep Learning"</span><span class="punc">,</span>',                               delay: 2680 },
-  { html: '            <span class="str">"Model Dev &amp; Deployment"</span><span class="punc">,</span>',                   delay: 2900 },
-  { html: '            <span class="str">"MLOps"</span><span class="punc">,</span>',                                         delay: 3100 },
-  { html: '            <span class="str">"Bridging Research &amp; Real-World AI"</span>',          delay: 3300 },
-  { html: '        <span class="punc">]</span>',                                                          delay: 3500 },
-  { html: '',                                                                          delay: 3640 },
-  { html: '    <span class="kw">def</span> <span class="fn">say_hi</span><span class="punc">(</span><span class="self">self</span><span class="punc">):</span>',              delay: 3800 },
-  { html: '        <span class="fn">print</span><span class="punc">(</span><span class="str">"Thanks for dropping by! Let\'s build something intelligent 🚀"</span><span class="punc">)</span>', delay: 4100 },
-  { html: '',                                                                          delay: 4320 },
-  { html: '<span class="var">me</span> <span class="punc">=</span> <span class="fn">OmRawat</span><span class="punc">()</span>',                                     delay: 4520 },
-  { html: '<span class="var">me</span><span class="punc">.</span><span class="fn">say_hi</span><span class="punc">()</span>',                                      delay: 4820 },
-];
+---
 
-const badges = [
-  { label: 'TensorFlow',     cls: 'b-orange' },
-  { label: 'PyTorch',        cls: 'b-orange' },
-  { label: 'FastAPI',        cls: 'b-green'  },
-  { label: 'Python',         cls: 'b-blue'   },
-  { label: 'MLOps',          cls: 'b-cyan'   },
-  { label: 'Deep Learning',  cls: 'b-pink'   },
-  { label: 'Streamlit',      cls: 'b-blue'   },
-  { label: 'Power BI',       cls: 'b-cyan'   },
-];
+## 🌊 About Me
 
-let timers = [];
+```python
+class OmRawat:
+    def __init__(self):
+        self.name       = "Om Rawat"
+        self.role       = "ML Engineer & AI Developer"
+        self.location   = "India 🇮🇳"
+        self.languages  = ["Python", "C", "SQL"]
+        self.frameworks = ["TensorFlow", "PyTorch", "FastAPI", "Streamlit"]
+        self.databases  = ["MySQL"]
+        self.tools      = ["Power BI", "Anaconda", "GitHub"]
+        self.interests  = [
+            "Deep Learning",
+            "Model Development & Deployment",
+            "MLOps",
+            "Bridging Research & Real-World AI"
+        ]
 
-function restart() {
-  timers.forEach(clearTimeout);
-  timers = [];
-  document.getElementById('code-container').innerHTML = '';
-  const out = document.getElementById('output');
-  out.classList.remove('show');
-  document.getElementById('out-line').textContent = '';
-  document.getElementById('badge-row').innerHTML = '';
-  run();
-}
+    def say_hi(self):
+        print("Thanks for dropping by! Let's build something intelligent together 🚀")
 
-function run() {
-  const container = document.getElementById('code-container');
+me = OmRawat()
+me.say_hi()
+```
 
-  lines.forEach((line, i) => {
-    const t = setTimeout(() => {
-      const div = document.createElement('div');
-      div.className = 'code-line';
-      div.innerHTML = line.html || '&nbsp;';
-      container.appendChild(div);
+---
 
-      requestAnimationFrame(() =>
-        requestAnimationFrame(() => div.classList.add('visible'))
-      );
+## 💻 Tech Stack
 
-      if (i === lines.length - 1) {
-        const cursor = document.createElement('span');
-        cursor.className = 'cursor';
-        div.appendChild(cursor);
+<div align="center">
 
-        const t2 = setTimeout(() => {
-          cursor.remove();
-          showOutput();
-        }, 600);
-        timers.push(t2);
-      }
-    }, line.delay);
-    timers.push(t);
-  });
-}
+### Languages
+![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
+![C](https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white)
 
-function showOutput() {
-  const out = document.getElementById('output');
-  out.classList.add('show');
+### ML / DL Frameworks
+![TensorFlow](https://img.shields.io/badge/TensorFlow-%23FF6F00.svg?style=for-the-badge&logo=TensorFlow&logoColor=white)
+![PyTorch](https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=for-the-badge&logo=PyTorch&logoColor=white)
+![scikit-learn](https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white)
+![Keras](https://img.shields.io/badge/Keras-%23D00000.svg?style=for-the-badge&logo=Keras&logoColor=white)
 
-  const outLine = document.getElementById('out-line');
-  const msg = '> Thanks for dropping by! Let\'s build something intelligent 🚀';
-  let idx = 0;
-  const iv = setInterval(() => {
-    outLine.textContent += msg[idx];
-    idx++;
-    if (idx >= msg.length) {
-      clearInterval(iv);
-      showBadges();
-    }
-  }, 26);
-}
+### Data & Visualization
+![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white)
+![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white)
+![Matplotlib](https://img.shields.io/badge/Matplotlib-%23ffffff.svg?style=for-the-badge&logo=Matplotlib&logoColor=black)
+![Plotly](https://img.shields.io/badge/Plotly-%233F4F75.svg?style=for-the-badge&logo=plotly&logoColor=white)
+![Power Bi](https://img.shields.io/badge/power_bi-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
 
-function showBadges() {
-  const row = document.getElementById('badge-row');
-  badges.forEach((b, i) => {
-    const t = setTimeout(() => {
-      const span = document.createElement('span');
-      span.className = 'badge ' + b.cls;
-      span.textContent = b.label;
-      row.appendChild(span);
-      requestAnimationFrame(() =>
-        requestAnimationFrame(() => span.classList.add('pop'))
-      );
-    }, i * 130);
-    timers.push(t);
-  });
-}
+### Deployment & APIs
+![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi)
+![Streamlit](https://img.shields.io/badge/Streamlit-%23FE4B4B.svg?style=for-the-badge&logo=streamlit&logoColor=white)
 
-run();
-</script>
-</body>
-</html>
+### Database
+![MySQL](https://img.shields.io/badge/mysql-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white)
+
+### Tools & Environment
+![Anaconda](https://img.shields.io/badge/Anaconda-%2344A833.svg?style=for-the-badge&logo=anaconda&logoColor=white)
+![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)
+![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)
+![VS Code](https://img.shields.io/badge/VS%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white)
+
+</div>
+
+---
+
+## 📊 GitHub Stats
+
+<div align="center">
+
+<img width="49%" src="https://github-readme-stats.shion.dev/api?username=Omrawat11&theme=merko&hide_border=false&include_all_commits=false&count_private=false&show_icons=true" />
+<img width="49%" src="https://streak-stats.demolab.com/?user=Omrawat11&theme=merko&hide_border=false" />
+
+<br/>
+
+<img width="40%" src="https://github-readme-stats.shion.dev/api/top-langs/?username=Omrawat11&theme=merko&hide_border=false&include_all_commits=false&count_private=false&layout=compact" />
+
+</div>
+
+---
+
+## 🏆 GitHub Trophies
+
+<div align="center">
+
+![](https://github-profile-trophy.vercel.app/?username=Omrawat11&theme=darkhub&no-frame=false&no-bg=false&margin-w=6&column=7)
+
+</div>
+
+---
+
+## 📈 Contribution Graph
+
+<div align="center">
+
+[![Om's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=Omrawat11&theme=merko&bg_color=0d1117&color=00b4d8&line=00b4d8&point=ffffff&area=true&hide_border=false)](https://github.com/ashutosh00710/github-readme-activity-graph)
+
+</div>
+
+---
+
+## 🐍 Contribution Snake
+
+<div align="center">
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Omrawat11/Omrawat11/output/github-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Omrawat11/Omrawat11/output/github-snake.svg" />
+  <img alt="github-snake" src="https://raw.githubusercontent.com/Omrawat11/Omrawat11/output/github-snake-dark.svg" />
+</picture>
+
+</div>
+
+---
+
+## 🎯 ML Expertise Areas
+
+<div align="center">
+
+| 🧠 Deep Learning | 🔧 MLOps | 📊 Data Science | 🚀 Deployment |
+|:---:|:---:|:---:|:---:|
+| Neural Networks | Model Monitoring | EDA & Visualization | FastAPI |
+| CNNs / RNNs | CI/CD Pipelines | Feature Engineering | Streamlit |
+| Transformers | Experiment Tracking | Statistical Analysis | REST APIs |
+| Transfer Learning | Model Versioning | Power BI Dashboards | Docker |
+
+</div>
+
+---
+
+## 🔗 Connect With Me
+
+<div align="center">
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/Omrawat11)
+[![GitHub](https://img.shields.io/badge/GitHub-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Omrawat11)
+[![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:your-email@gmail.com)
+
+</div>
+
+---
+
+<div align="center">
+
+<!-- FOOTER WAVE -->
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:00b4d8,100:0d1117&height=120&section=footer" />
+
+<i>"Bridging Research & Real-World AI, one model at a time."</i>
+
+</div>
