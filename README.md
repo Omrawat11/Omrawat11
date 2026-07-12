@@ -20,9 +20,9 @@
 
 ```ascii
 ┌──────────────────────────────────────────────────────────────────┐
-│  root@om-rawat:~$ whoami                                          │
+│  root@Omrawat11:~$ whoami                                          │
 │  > B.Tech AI & ML | Training models, not excuses.                 │
-│  root@om-rawat:~$ status --check                                  │
+│  root@Omrawat11:~$ status --check                                  │
 │  > [ONLINE] Building AI systems • Shipping ML products             │
 └──────────────────────────────────────────────────────────────────┘
 ```
@@ -212,16 +212,16 @@ Classification model identifying at-risk customers to support proactive retentio
 
 <div align="center">
 
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=om-rawat&show_icons=true&theme=nightowl&hide_border=true&bg_color=0f2027&title_color=00ffcc&icon_color=00ffcc&text_color=c9d1d9" />
-<img height="165" src="https://github-readme-streak-stats.herokuapp.com/?user=om-rawat&theme=nightowl&hide_border=true&background=0f2027&stroke=00ffcc&ring=00ffcc&fire=00ffcc&currStreakLabel=00ffcc" />
+<img height="165" src="https://github-readme-stats.vercel.app/api?username=Omrawat11&show_icons=true&theme=nightowl&hide_border=true&bg_color=0f2027&title_color=00ffcc&icon_color=00ffcc&text_color=c9d1d9" />
+<img height="165" src="https://github-readme-streak-stats.herokuapp.com/?user=Omrawat11&theme=nightowl&hide_border=true&background=0f2027&stroke=00ffcc&ring=00ffcc&fire=00ffcc&currStreakLabel=00ffcc" />
 
 <br>
 
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=om-rawat&layout=compact&theme=nightowl&hide_border=true&bg_color=0f2027&title_color=00ffcc&text_color=c9d1d9" />
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Omrawat11&layout=compact&theme=nightowl&hide_border=true&bg_color=0f2027&title_color=00ffcc&text_color=c9d1d9" />
 
 <br><br>
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=om-rawat&theme=react-dark&bg_color=0f2027&color=00ffcc&line=00ffcc&point=ffffff&hide_border=true" width="100%" />
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=Omrawat11&theme=react-dark&bg_color=0f2027&color=00ffcc&line=00ffcc&point=ffffff&hide_border=true" width="100%" />
 
 </div>
 
@@ -264,7 +264,7 @@ status: "in_progress 🔄"
 
 <div align="center">
 
-<img src="https://komarev.com/ghpvc/?username=om-rawat&style=for-the-badge&color=00ffcc&label=PROFILE+VIEWS" />
+<img src="https://komarev.com/ghpvc/?username=Omrawat11&style=for-the-badge&color=00ffcc&label=PROFILE+VIEWS" />
 
 <br><br>
 
