@@ -1,4 +1,4 @@
-<div align="center">
+ <div align="center">
 
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,50:2c5364,100:0f2027&height=220&section=header&text=OM%20RAWAT&fontSize=60&fontColor=00ffcc&animation=fadeIn&fontAlignY=38&desc=Machine%20Learning%20Engineer%20%7C%20AI%20Developer%20%7C%20Deep%20Learning%20Enthusiast&descAlignY=58&descSize=18" />
 
@@ -227,14 +227,6 @@ Classification model identifying at-risk customers to support proactive retentio
 
 <br>
 
-## 🏅 GitHub Trophies
-
-<div align="center">
-<img src="https://github-profile-trophy.vercel.app/?username=om-rawat&theme=algolia&no-frame=true&column=7&margin-w=10&margin-h=10" />
-</div>
-
-<br>
-
 ## 🌱 Goals for 2026
 
 ```yaml
@@ -242,7 +234,6 @@ goals:
   - become: "AI Engineer"
   - master: "Deep Learning"
   - learn: "MLOps"
-  - contribute: "Open Source"
   - build: "Real-world AI Products"
 status: "in_progress 🔄"
 ```
