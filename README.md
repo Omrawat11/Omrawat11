@@ -248,9 +248,9 @@ Dark glassmorphism-themed dashboard predicting delivery times, with Plotly chart
 
 | Area | Status |
 |:-----|:------:|
-| 🐍 Python & DSA | ✅ Active |
+| 🐍 Python  | ✅ Active |
 | 🤖 Machine Learning & Deep Learning | ✅ Active |
-| 🧠 LLM Engineering & Agentic AI | ✅ Active |
+| 🧠 LLM Engineering & Agentic AI | 🔄 In Progress |
 | 📊 Data Science & Analytics | ✅ Active |
 | 🔗 LangChain & LangGraph | 🔄 In Progress |
 | ☁️ MLOps & Model Deployment | 🔄 In Progress |
