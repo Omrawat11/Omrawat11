@@ -123,4 +123,177 @@ Cosine-similarity-driven recommendation engine with a vanilla JS frontend, pulli
 ### 🚨 CivicIQ
 **Autonomous Civic Incident Intelligence System**
 
-Multi-agent architecture for civic complaint
+Multi-agent architecture for civic complaint triage and intelligence, built for a buildathon with a full React + TypeScript stack.
+
+`React` `Vite` `TypeScript` `Tailwind` `Multi-Agent AI`
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### 🛰️ ISRO Climate Digital Twin
+**AI-Powered Climate Digital Twin — BAH 2026**
+
+Pitch deck and concept design submitted for ISRO's Bharatiya Antariksh Hackathon, Challenge 05, built around real Indian climate statistics.
+
+`AI/ML` `Climate Data` `Digital Twin`
+
+</td>
+<td width="50%" valign="top">
+
+### 💰 InsureIQ
+**Insurance Charges Predictor**
+
+Four-page Streamlit dashboard using Linear Regression with interactive Plotly visualizations across a dark glassmorphism UI.
+
+`Python` `Streamlit` `Linear Regression` `Plotly`
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### 🏫 OIST ACM AOC
+**Autonomous Audit Agent**
+
+An autonomous AI agent that reconciles business records, investigates discrepancies, suggests corrections, and generates transparent audit reports.
+
+`Python` `AI Agent`
+
+[🔗 View Repo](https://github.com/Omrawat11/OIST-ACM-AOC)
+
+</td>
+<td width="50%" valign="top">
+
+### 🍔 Food Delivery Time Predictor
+**ML Dashboard**
+
+Dark glassmorphism-themed dashboard predicting delivery times, with Plotly charts and a sidebar-driven UX.
+
+`Python` `Streamlit` `Regression` `Plotly`
+
+</td>
+</tr>
+</table>
+
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:0f2027,100:2c5364&height=2&width=100%"/>
+
+## 📊 GitHub Stats
+
+<div align="center">
+
+<img src="https://github-readme-stats.vercel.app/api?username=Omrawat11&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true&rank_icon=github" height="165"/>
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Omrawat11&layout=compact&theme=tokyonight&hide_border=true&langs_count=6" height="165"/>
+
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=Omrawat11&theme=tokyonight&hide_border=true" width="48%"/>
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=Omrawat11&bg_color=0d1117&color=00d9ff&line=00d9ff&point=ffffff&area=true&hide_border=true&custom_title=Om%20Rawat%20-%20Contribution%20Activity" width="97%"/>
+
+</div>
+
+## 🏅 GitHub Trophies
+
+<div align="center">
+
+<img src="https://github-profile-trophy.vercel.app/?username=Omrawat11&theme=tokyonight&no-frame=true&row=1&column=7"/>
+
+</div>
+
+## 🌌 3D Contribution Graph
+
+<div align="center">
+
+[![Om Rawat 3D Contribution Graph](https://raw.githubusercontent.com/Omrawat11/Omrawat11/output/profile-night-rainbow.svg)](https://raw.githubusercontent.com/Omrawat11/Omrawat11/output/profile-night-rainbow.svg)
+
+✨ *Contribution history rendered as an animated 3D constellation — auto-updates daily via GitHub Actions*
+
+</div>
+
+<details>
+<summary>⚙️ <strong>GitHub Action powering the 3D graph</strong> (<code>.github/workflows/profile-3d.yml</code>)</summary>
+
+```yaml
+name: 3D Profile Contribution Graph
+
+on:
+  schedule:
+    - cron: "0 0 * * *"
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: yoshi389111/github-profile-3d-contrib@0.7.1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          USERNAME: Omrawat11
+      - name: Commit & push
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add -f profile-3d-contrib/*.svg
+          git commit -m "Generate 3D contribution graph" || exit 0
+          git push origin output --force
+```
+
+</details>
+
+## 🐍 Contribution Snake
+
+<div align="center">
+
+<img src="https://raw.githubusercontent.com/Platane/snk/output/github-contribution-grid-snake-dark.svg" width="100%"/>
+
+</div>
+
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:0f2027,100:2c5364&height=2&width=100%"/>
+
+## 🗺️ Learning Roadmap
+
+| Area                               | Status         |
+| ----------------------------------- | -------------- |
+| 🐍 Python                            | ✅ Active       |
+| 🤖 Machine Learning & Deep Learning  | ✅ Active       |
+| 🧠 LLM Engineering & Agentic AI      | 🔄 In Progress |
+| 📊 Data Science & Analytics          | ✅ Active       |
+| 🔗 LangChain & LangGraph             | 🔄 In Progress |
+| ☁️ MLOps & Model Deployment          | 🔄 In Progress |
+| 🌐 FastAPI / Backend for ML          | ✅ Active       |
+| 🎨 Frontend for AI Apps (React)      | 🔄 In Progress |
+
+## 🎯 Goals for 2026
+
+- 🚀 Become a well-rounded AI Engineer
+- 🧠 Master Deep Learning architectures end-to-end
+- ☁️ Get hands-on with MLOps pipelines
+- 🌍 Contribute to open-source AI projects
+- 🏆 Ship real-world AI products, not just prototypes
+
+## ☕ Fun Facts
+
+- 🧩 I genuinely enjoy solving coding problems for the process, not just the badge
+- 🔬 Always reading about the latest in AI research
+- 🎭 Occasionally build joke/prank web pages purely for fun
+- 🎨 Care a lot about how a project *looks*, not just how it works
+
+---
+
+<div align="center">
+
+## 🌍 Let's Connect
+
+📍 Bhopal, Madhya Pradesh, India | 🎓 B.Tech AI/ML
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Om%20Rawat-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/om-rawat-530499399/)
+[![GitHub](https://img.shields.io/badge/GitHub-Omrawat11-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Omrawat11)
+[![Gmail](https://img.shields.io/badge/Gmail-omrawat2215%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:omrawat2215@gmail.com)
+
+### ⚡ Building intelligent systems today, for a smarter tomorrow ⚡
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:2c5364,50:203a43,100:0f2027&height=150&section=footer" width="100%"/>
+
+</div>
