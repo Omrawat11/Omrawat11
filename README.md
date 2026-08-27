@@ -1,35 +1,24 @@
- <!-- ═══════════════════════════════════════════════════════════ -->
-<!--                     HEADER                                -->
-<!-- ═══════════════════════════════════════════════════════════ -->
-
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,50:203a43,100:2c5364&height=200&section=header&text=Om%20Rawat&fontSize=60&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=Machine%20Learning%20Engineer%20%7C%20AI%20Developer%20%7C%20Deep%20Learning%20Enthusiast&descSize=18&descAlignY=55"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,50:203a43,100:2c5364&height=250&section=header&text=Om%20Rawat&fontSize=70&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=AI%2FML%20Engineer%20%E2%80%A2%20Building%20Intelligent%20Systems&descAlignY=55&descSize=20" width="100%"/>
 
-<br/>
-
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=1000&color=00D9FF&center=true&vCenter=true&width=800&lines=Building+intelligent+systems+with+AI+%26+ML;Turning+data+into+decisions%2C+one+model+at+a+time;Deep+Learning+%7C+NLP+%7C+Computer+Vision+%7C+MLOps;Currently+building+CivicIQ+%E2%80%94+AI+for+civic+good)](https://git.io/typing-svg)
+<img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&weight=600&size=24&duration=3000&pause=1000&color=00D9FF&center=true&vCenter=true&width=700&lines=Building+intelligent+systems+with+AI+%26+ML;Turning+Notebooks+into+Real+Products;Currently+exploring+Agentic+AI+%26+MLOps;Machine+Learning+Engineer+%7C+AI+Developer" alt="Typing SVG" />
 
 <br/>
 
 [![GitHub](https://img.shields.io/badge/GitHub-Omrawat11-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Omrawat11)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Om%20Rawat-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/om-rawat-530499399/)
 [![Gmail](https://img.shields.io/badge/Gmail-omrawat2215%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:omrawat2215@gmail.com)
-[![Profile Views](https://komarev.com/ghpvc/?username=Omrawat11&label=Profile%20Views&color=00D9FF&style=for-the-badge)](.)
+[![Kaggle](https://img.shields.io/badge/Kaggle-omrawat22-20BEFF?style=for-the-badge&logo=kaggle&logoColor=white)](https://www.kaggle.com/omrawat22)
+[![Profile Views](https://komarev.com/ghpvc/?username=Omrawat11&label=Profile%20Views&color=00D9FF&style=for-the-badge)](https://github.com/Omrawat11)
 
 </div>
 
-<br/>
-
-<!-- ═══════════════════════════════════════════════════════════ -->
-<!--                      ABOUT ME                             -->
-<!-- ═══════════════════════════════════════════════════════════ -->
+---
 
 ## 🧠 About Me
 
-<img align="right" src="https://user-images.githubusercontent.com/74038190/212284158-e840e285-664b-44d7-b79b-e264b5e54825.gif" width="300"/>
-
-<img align="right" src="https://user-images.githubusercontent.com/74038190/216122041-518ac897-8d92-4c6b-9b3f-ca01dcaf38ce.gif" width="150"/>
+<img align="right" src="https://user-images.githubusercontent.com/74038190/212284158-e840e285-664b-44d7-b79b-e264b5e54825.gif" width="380">
 
 I'm an **AI/ML undergrad** who likes to build things that actually work end-to-end — not just notebooks, but real applications with clean UIs, deployable models, and a story worth telling.
 
@@ -37,7 +26,10 @@ I'm an **AI/ML undergrad** who likes to build things that actually work end-to-e
 - 🎬 Recently shipped **CineSense AI** — a content-based movie recommendation engine
 - 🌱 Deepening my skills in **LangGraph, MLOps, and Agentic AI systems**
 - 🎯 Focused on turning ML models into production-quality, portfolio-ready products
+- 📍 Based in **Bhopal, India** 🇮🇳 | 🎓 B.Tech — Artificial Intelligence & Machine Learning
 - ⚡ Fun fact: I also build the occasional prank web page when I need a break from serious code
+
+<br clear="right"/>
 
 ```python
 class OmRawat:
@@ -61,16 +53,11 @@ class OmRawat:
     def say_hi(self):
         print("Let's build intelligent systems together 🚀")
 
-
 om = OmRawat()
 om.say_hi()
 ```
 
-<br clear="right"/>
-
-<!-- ═══════════════════════════════════════════════════════════ -->
-<!--                     TECH STACK                            -->
-<!-- ═══════════════════════════════════════════════════════════ -->
+---
 
 ## 🛠️ Tech Stack
 
@@ -108,23 +95,18 @@ om.say_hi()
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 ![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
 ![VS Code](https://img.shields.io/badge/VS%20Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white)
-![Anaconda](https://img.shields.io/badge/Anaconda-44A833?style=for-the-badge&logo=anaconda&logoColor=white)
 ![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white)
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
 
 </div>
 
----
-
-<!-- ═══════════════════════════════════════════════════════════ -->
-<!--                  FEATURED PROJECTS                        -->
-<!-- ═══════════════════════════════════════════════════════════ -->
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:0f2027,100:2c5364&height=2&width=100%"/>
 
 ## 📌 Featured Projects
 
 <table>
 <tr>
-<td width="50%">
+<td width="50%" valign="top">
 
 ### 🎬 CineSense AI
 **Content-Based Movie Recommendation System**
@@ -136,218 +118,9 @@ Cosine-similarity-driven recommendation engine with a vanilla JS frontend, pulli
 [🔗 View Repo](https://github.com/Omrawat11/Movie-Recommendation-System)
 
 </td>
-<td width="50%">
+<td width="50%" valign="top">
 
 ### 🚨 CivicIQ
 **Autonomous Civic Incident Intelligence System**
 
-Multi-agent architecture for civic complaint triage and intelligence, built for a buildathon with a full React + TypeScript stack.
-
-`React` `Vite` `TypeScript` `Tailwind` `shadcn/ui` `Multi-Agent AI`
-
-</td>
-</tr>
-<tr>
-<td width="50%">
-
-### 🛰️ ISRO Climate Digital Twin
-**AI-Powered Climate Digital Twin — BAH 2026**
-
-Pitch deck and concept design submitted for ISRO's Bharatiya Antariksh Hackathon, Challenge 05, built around real Indian climate statistics.
-
-`AI/ML` `Climate Data` `Digital Twin`
-
-</td>
-<td width="50%">
-
-### 💰 InsureIQ
-**Insurance Charges Predictor**
-
-Four-page Streamlit dashboard using Linear Regression with interactive Plotly visualizations across a dark glassmorphism UI.
-
-`Python` `Streamlit` `Linear Regression` `Plotly`
-
-</td>
-</tr>
-<tr>
-<td width="50%">
-
-### 🏫 OIST ACM AOC
-**Academic / Club Project**
-
-`Explore the repo for details`
-
-[🔗 View Repo](https://github.com/Omrawat11/OIST-ACM-AOC)
-
-</td>
-<td width="50%">
-
-### 🍔 Food Delivery Time Predictor
-**ML Dashboard**
-
-Dark glassmorphism-themed dashboard predicting delivery times, with Plotly charts and a sidebar-driven UX.
-
-`Python` `Streamlit` `Regression` `Plotly`
-
-</td>
-</tr>
-</table>
-
----
-
-<!-- ═══════════════════════════════════════════════════════════ -->
-<!--                   GITHUB STATS                            -->
-<!-- ═══════════════════════════════════════════════════════════ -->
-
-## 📊 GitHub Stats
-
-<div align="center">
-<img src="https://github-readme-stats.vercel.app/api?username=Omrawat11&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true&rank_icon=github" height="165" alt="GitHub Stats"/>
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Omrawat11&layout=compact&theme=tokyonight&hide_border=true&langs_count=6" height="165" alt="Top Languages"/>
-</div>
-
-<div align="center">
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=Omrawat11&theme=tokyonight&hide_border=true" alt="GitHub Streak"/>
-</div>
-
-<div align="center">
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=Omrawat11&bg_color=0d1117&color=00d9ff&line=00d9ff&point=ffffff&area=true&hide_border=true&custom_title=Om%20Rawat%20-%20Contribution%20Activity" width="100%"/>
-</div>
-
----
-
-<!-- ═══════════════════════════════════════════════════════════ -->
-<!--                  GITHUB TROPHIES                          -->
-<!-- ═══════════════════════════════════════════════════════════ -->
-
-<div align="center">
-
-## 🏅 GitHub Trophies
-
-<img src="https://github-profile-trophy.vercel.app/?username=Omrawat11&theme=darkhub&no-frame=true&row=1&column=7"/>
-
-</div>
-
-<!-- ═══════════════════════════════════════════════════════════ -->
-<!--            3D CONSTELLATION CONTRIBUTION GRAPH            -->
-<!-- ═══════════════════════════════════════════════════════════ -->
-
-<div align="center">
-
-## 🌌 3D Contribution Graph
-
-<img src="https://raw.githubusercontent.com/Omrawat11/Omrawat11/output/profile-night-rainbow.svg" alt="Om Rawat 3D Contribution Graph" width="100%"/>
-
-<sub>✨ Contribution history rendered as an animated 3D constellation — auto-generated via GitHub Actions</sub>
-
-</div>
-
-> **Setup note:** this needs a small one-time GitHub Action in a repo named exactly `Omrawat11` (a special "profile repo"). I've included the workflow file below — just add it once and it updates itself daily.
-
-<details>
-<summary>⚙️ Click to see the 3D graph GitHub Action (add to <code>.github/workflows/profile-3d.yml</code>)</summary>
-
-```yaml
-name: 3D Profile Contribution Graph
-
-on:
-  schedule:
-    - cron: "0 0 * * *"
-  workflow_dispatch:
-
-jobs:
-  build:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v3
-      - uses: yoshi389111/github-profile-3d-contrib@0.7.1
-        env:
-          GITHUB_TOKEN: ${{ "{{" }} secrets.GITHUB_TOKEN {{ "}}" }}
-        with:
-          USERNAME: Omrawat11
-      - name: Commit & push
-        run: |
-          git config --global user.name "github-actions[bot]"
-          git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git add -f profile-3d-contrib/*.svg
-          git commit -m "Generate 3D contribution graph" || exit 0
-          git push origin output --force
-```
-
-</details>
-
-<!-- ═══════════════════════════════════════════════════════════ -->
-<!--                  CONTRIBUTION SNAKE                       -->
-<!-- ═══════════════════════════════════════════════════════════ -->
-
-<div align="center">
-
-## 🐍 Contribution Snake
-
-<img src="https://raw.githubusercontent.com/Platane/snk/output/github-contribution-grid-snake-dark.svg"/>
-
-</div>
-
----
-
-<!-- ═══════════════════════════════════════════════════════════ -->
-<!--                     ROADMAP                               -->
-<!-- ═══════════════════════════════════════════════════════════ -->
-
-## 🗺️ Learning Roadmap
-
-| Area | Status |
-|:-----|:------:|
-| 🐍 Python  | ✅ Active |
-| 🤖 Machine Learning & Deep Learning | ✅ Active |
-| 🧠 LLM Engineering & Agentic AI | 🔄 In Progress  |
-| 📊 Data Science & Analytics | ✅ Active |
-| 🔗 LangChain & LangGraph | 🔄 In Progress |
-| ☁️ MLOps & Model Deployment | 🔄 In Progress |
-| 🌐 FastAPI / Backend for ML | ✅ Active |
-| 🎨 Frontend for AI Apps (React) | 🔄 In Progress |
-
----
-
-## 🎯 Goals for 2026
-
-- 🚀 Become a well-rounded AI Engineer
-- 🧠 Master Deep Learning architectures end-to-end
-- ☁️ Get hands-on with MLOps pipelines
-- 🌍 Contribute to open-source AI projects
-- 🏆 Ship real-world AI products, not just prototypes
-
----
-
-## ☕ Fun Facts
-
-- 🧩 I genuinely enjoy solving coding problems for the process, not just the badge
-- 🔬 Always reading about the latest in AI research
-- 🎭 Occasionally build joke/prank web pages purely for fun
-- 🎨 Care a lot about how a project *looks*, not just how it works
-
----
-
-<!-- ═══════════════════════════════════════════════════════════ -->
-<!--                      CONTACT                              -->
-<!-- ═══════════════════════════════════════════════════════════ -->
-
-<div align="center">
-
-## 🌍 Let's Connect
-
-📍 Bhopal, Madhya Pradesh, India &nbsp;|&nbsp; 🎓 B.Tech AI/ML
-
-<br/>
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Om%20Rawat-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/om-rawat-530499399/)
-[![GitHub](https://img.shields.io/badge/GitHub-Omrawat11-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Omrawat11)
-[![Gmail](https://img.shields.io/badge/Gmail-omrawat2215%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:omrawat2215@gmail.com)
-
-<br/>
-
-**⚡ Building intelligent systems today, for a smarter tomorrow ⚡**
-
-</div>
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:2c5364,50:203a43,100:0f2027&height=120&section=footer" width="100%"/>
+Multi-agent architecture for civic complaint
