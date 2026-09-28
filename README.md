@@ -2,7 +2,7 @@
   PORTFOLIO README: Omrawat11
   Theme: Tokyo Night (Dark-First Aesthetic with Light Mode Support)
   Author: Om Rawat (@Omrawat11)
-  Institution: LNCT Bhopal (RGPV) • B.Tech AI & ML (4th Semester)
+  Institution: OIST Bhopal (RGPV) • B.Tech AI & ML (5th Semester)
   Location: Bhopal, Madhya Pradesh, India
 
   TABLE OF CONTENTS:
